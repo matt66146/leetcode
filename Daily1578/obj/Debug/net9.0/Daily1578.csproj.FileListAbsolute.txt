@@ -1,0 +1,14 @@
+/home/matt/Programming/Personal/leetcode/Daily1578/bin/Debug/net9.0/Daily1578
+/home/matt/Programming/Personal/leetcode/Daily1578/bin/Debug/net9.0/Daily1578.deps.json
+/home/matt/Programming/Personal/leetcode/Daily1578/bin/Debug/net9.0/Daily1578.runtimeconfig.json
+/home/matt/Programming/Personal/leetcode/Daily1578/bin/Debug/net9.0/Daily1578.dll
+/home/matt/Programming/Personal/leetcode/Daily1578/bin/Debug/net9.0/Daily1578.pdb
+/home/matt/Programming/Personal/leetcode/Daily1578/obj/Debug/net9.0/Daily1578.GeneratedMSBuildEditorConfig.editorconfig
+/home/matt/Programming/Personal/leetcode/Daily1578/obj/Debug/net9.0/Daily1578.AssemblyInfoInputs.cache
+/home/matt/Programming/Personal/leetcode/Daily1578/obj/Debug/net9.0/Daily1578.AssemblyInfo.cs
+/home/matt/Programming/Personal/leetcode/Daily1578/obj/Debug/net9.0/Daily1578.csproj.CoreCompileInputs.cache
+/home/matt/Programming/Personal/leetcode/Daily1578/obj/Debug/net9.0/Daily1578.dll
+/home/matt/Programming/Personal/leetcode/Daily1578/obj/Debug/net9.0/refint/Daily1578.dll
+/home/matt/Programming/Personal/leetcode/Daily1578/obj/Debug/net9.0/Daily1578.pdb
+/home/matt/Programming/Personal/leetcode/Daily1578/obj/Debug/net9.0/Daily1578.genruntimeconfig.cache
+/home/matt/Programming/Personal/leetcode/Daily1578/obj/Debug/net9.0/ref/Daily1578.dll
