@@ -1,0 +1,14 @@
+/home/matt/Programming/Personal/leetcode/Daily3318/bin/Debug/net9.0/Daily3318
+/home/matt/Programming/Personal/leetcode/Daily3318/bin/Debug/net9.0/Daily3318.deps.json
+/home/matt/Programming/Personal/leetcode/Daily3318/bin/Debug/net9.0/Daily3318.runtimeconfig.json
+/home/matt/Programming/Personal/leetcode/Daily3318/bin/Debug/net9.0/Daily3318.dll
+/home/matt/Programming/Personal/leetcode/Daily3318/bin/Debug/net9.0/Daily3318.pdb
+/home/matt/Programming/Personal/leetcode/Daily3318/obj/Debug/net9.0/Daily3318.GeneratedMSBuildEditorConfig.editorconfig
+/home/matt/Programming/Personal/leetcode/Daily3318/obj/Debug/net9.0/Daily3318.AssemblyInfoInputs.cache
+/home/matt/Programming/Personal/leetcode/Daily3318/obj/Debug/net9.0/Daily3318.AssemblyInfo.cs
+/home/matt/Programming/Personal/leetcode/Daily3318/obj/Debug/net9.0/Daily3318.csproj.CoreCompileInputs.cache
+/home/matt/Programming/Personal/leetcode/Daily3318/obj/Debug/net9.0/Daily3318.dll
+/home/matt/Programming/Personal/leetcode/Daily3318/obj/Debug/net9.0/refint/Daily3318.dll
+/home/matt/Programming/Personal/leetcode/Daily3318/obj/Debug/net9.0/Daily3318.pdb
+/home/matt/Programming/Personal/leetcode/Daily3318/obj/Debug/net9.0/Daily3318.genruntimeconfig.cache
+/home/matt/Programming/Personal/leetcode/Daily3318/obj/Debug/net9.0/ref/Daily3318.dll
