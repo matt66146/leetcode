@@ -225,3 +225,5 @@ FodyWeavers.xsd
 *.msp
 obj/*
 bin/*
+obj/
+bin/
