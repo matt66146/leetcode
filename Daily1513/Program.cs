@@ -16,39 +16,24 @@ public class Solution
     public int NumSub(string s)
     {
         int mod = (int)Math.Pow(10, 9) + 7;
-        int output = 0;
-        int l = 0;
-        int r = 0;
-        while (l < s.Length)
+        long output = 0;
+        long c = 0;
+        foreach (var num in s)
         {
-            if (Int32.Parse(s[l].ToString()) == 1)
+            if (num == '1')
             {
-                output++;
-
-                r = l + 1;
-                if (r >= s.Length)
-                {
-                    l++;
-                    break;
-                }
-                while (Int32.Parse(s[r].ToString()) == 1)
-                {
-                    output = (output + (r - l + 1)) % mod;
-                    r++;
-                    if (r >= s.Length)
-                    {
-                        break;
-                    }
-                }
-                l = r + 1;
-
+                c++;
             }
             else
             {
-                l++;
+                output += c * (c + 1) / 2;
+                output %= mod;
+                c = 0;
             }
         }
-
-        return output;
+        output += c * (c + 1) / 2;
+        output %= mod;
+        c = 0;
+        return (int)output;
     }
 }
