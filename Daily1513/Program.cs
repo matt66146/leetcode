@@ -27,7 +27,6 @@ public class Solution
             else
             {
                 output += c * (c + 1) / 2;
-                output %= mod;
                 c = 0;
             }
         }
