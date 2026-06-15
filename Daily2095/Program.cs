@@ -1,6 +1,6 @@
-﻿Console.WriteLine("Hello, World!");
+﻿
 
-var data = new int[] { 1, 3, 4, 7, 1, 2, 6 };
+var data = new int[] { 1, 2 };
 ListNode head = new();
 
 if (data.Length >= 2)
@@ -23,8 +23,8 @@ for (int i = 2; i < data.Length; i++)
 current = head;
 
 var result = DeleteMiddle(head);
-Console.WriteLine("head: " + result?.val.ToString());
-Console.WriteLine("next: " + result?.next?.ToString());
+//Console.WriteLine("head: " + result?.val.ToString());
+//Console.WriteLine("next: " + result?.next?.ToString());
 PrintListNodes(result);
 
 
@@ -103,47 +103,29 @@ ListNode DeleteMiddleV2(ListNode head)
 }
 ListNode DeleteMiddle(ListNode head)
 {
+    ListNode fast = head;
+    ListNode slow = head;
+    ListNode prev = head;
+
     if (head.next == null)
     {
         return null;
     }
-    ListNode? prev = null;
-    ListNode? next = null;
-    prev = head;
-
-
-    if (head.next != null)
+    if (head.next.next == null)
     {
-        next = head.next;
+        head.next = null;
+        return head;
     }
 
-
-    ListNode current = head;
-    int i = 0;
-    int middle = 0;
-    while (current != null)
+    while (fast != null && fast.next != null)
     {
 
-        if (i / 2 > middle && current.next != null)
-        {
-            middle = i / 2;
-            prev = next;
-            next = prev?.next;
-            //Console.WriteLine(prev.val);
-        }
+        fast = fast.next.next;
+        prev = slow;
+        slow = slow.next;
 
-        current = current.next;
-        i++;
     }
-
-    if (prev?.next?.next != null)
-    {
-        next = prev.next.next;
-    }
-
-
-    prev.next = next;
-
+    prev.next = prev.next.next;
     return head;
 }
 
